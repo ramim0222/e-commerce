@@ -748,5 +748,10 @@
     "mtime": 1786004735.0678415,
     "ast_hash": "a6920c3212da9709c4245d052eb11cad",
     "semantic_hash": "a6920c3212da9709c4245d052eb11cad"
+  },
+  "resources/js/Pages/Front/CategoryListing.jsx": {
+    "mtime": 1786004758.145309,
+    "ast_hash": "707de007aa46d0b1c326f0f487e1272e",
+    "semantic_hash": "707de007aa46d0b1c326f0f487e1272e"
   }
 }
