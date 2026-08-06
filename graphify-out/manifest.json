@@ -753,5 +753,10 @@
     "mtime": 1786004758.145309,
     "ast_hash": "707de007aa46d0b1c326f0f487e1272e",
     "semantic_hash": "707de007aa46d0b1c326f0f487e1272e"
+  },
+  "resources/js/Pages/Front/ProductDetail.jsx": {
+    "mtime": 1786004785.3531406,
+    "ast_hash": "6851ca241d131a8050a43ab41cd7fb39",
+    "semantic_hash": "6851ca241d131a8050a43ab41cd7fb39"
   }
 }
