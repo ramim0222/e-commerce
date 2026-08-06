@@ -624,23 +624,6 @@
       "agents_skills_design_system_templates_design_tokens_starter_semantic_color"
     ],
     "17": [
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_main",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_123",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_136",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_149",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_162",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_174",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_285",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_84",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_breakpoints",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_colors",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_fonts",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_plugins",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_spacing",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_recommend_plugins",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config"
-    ],
-    "18": [
       "autoprefixer",
       "concurrently",
       "inertiajs_react",
@@ -661,7 +644,7 @@
       "tailwindcss",
       "tailwindcss_vite"
     ],
-    "19": [
+    "18": [
       "agents_skills_design_system_scripts_fetch_background",
       "agents_skills_design_system_scripts_fetch_background_generate_css_for_background",
       "agents_skills_design_system_scripts_fetch_background_get_background_image",
@@ -681,7 +664,7 @@
       "agents_skills_design_system_scripts_fetch_background_rationale_40",
       "agents_skills_design_system_scripts_fetch_background_resolve_token_reference"
     ],
-    "20": [
+    "19": [
       "base_ui_react",
       "class_variance_authority",
       "clsx",
@@ -700,7 +683,7 @@
       "shadcn",
       "tailwind_merge"
     ],
-    "21": [
+    "20": [
       "agents_skills_design_scripts_icon_generate",
       "agents_skills_design_scripts_icon_generate_apply_color",
       "agents_skills_design_scripts_icon_generate_apply_viewbox_size",
@@ -718,7 +701,7 @@
       "agents_skills_design_scripts_icon_generate_rationale_288",
       "agents_skills_design_scripts_icon_generate_rationale_372"
     ],
-    "22": [
+    "21": [
       "agents_skills_design_system_templates_design_tokens_starter_2xl_type",
       "agents_skills_design_system_templates_design_tokens_starter_2xl_value",
       "agents_skills_design_system_templates_design_tokens_starter_3xl_type",
@@ -736,40 +719,25 @@
       "agents_skills_design_system_templates_design_tokens_starter_xs_type",
       "agents_skills_design_system_templates_design_tokens_starter_xs_value"
     ],
-    "23": [
-      "agents_skills_ui_styling_scripts_shadcn_add_main",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_147",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_193",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_33",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_42",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_68",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_84",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_add_all_components",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_add_components",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_check_shadcn_config",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_get_installed_components",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_get_shadcn_version",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_list_installed"
-    ],
-    "24": [
+    "22": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_104",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_112",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_147",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_158",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_18",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_205",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_22",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_45",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_90",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_temp_project",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_already_installed",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_config",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_success",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_no_config",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_list_installed_no_config"
     ],
-    "25": [
+    "23": [
       "agents_skills_ui_ux_pro_max_scripts_design_system_palette_is_dark",
       "agents_skills_ui_ux_pro_max_scripts_design_system_rationale_109",
       "agents_skills_ui_ux_pro_max_scripts_design_system_rationale_127",
@@ -787,7 +755,28 @@
       "agents_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testluminance_test_parses_six_and_three_digit_hex",
       "agents_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testluminance_test_returns_none_for_unparseable"
     ],
-    "26": [
+    "24": [
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_main",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_123",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_136",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_149",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_162",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_174",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_285",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_84",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_breakpoints",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_colors",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_fonts",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_spacing",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_recommend_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
+    ],
+    "25": [
       "agents_skills_brand_scripts_validate_asset",
       "agents_skills_brand_scripts_validate_asset_checkmanifest",
       "agents_skills_brand_scripts_validate_asset_formatbytes",
@@ -803,7 +792,7 @@
       "agents_skills_brand_scripts_validate_asset_validatefilesize",
       "agents_skills_brand_scripts_validate_asset_validateformat"
     ],
-    "27": [
+    "26": [
       "agents_skills_brand_scripts_extract_colors",
       "agents_skills_brand_scripts_extract_colors_calculatecompliance",
       "agents_skills_brand_scripts_extract_colors_colordistance",
@@ -818,7 +807,7 @@
       "agents_skills_brand_scripts_extract_colors_parseimagemagickoutput",
       "agents_skills_brand_scripts_extract_colors_path"
     ],
-    "28": [
+    "27": [
       "agents_skills_design_system_templates_design_tokens_starter",
       "agents_skills_design_system_templates_design_tokens_starter_component",
       "agents_skills_design_system_templates_design_tokens_starter_component_type",
@@ -832,6 +821,21 @@
       "agents_skills_design_system_templates_design_tokens_starter_semantic_spacing",
       "agents_skills_design_system_templates_design_tokens_starter_spacing_component",
       "agents_skills_design_system_templates_design_tokens_starter_spacing_section"
+    ],
+    "28": [
+      "agents_skills_ui_styling_scripts_shadcn_add_main",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_147",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_193",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_33",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_42",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_68",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_84",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_add_all_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_add_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_check_shadcn_config",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_get_installed_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_get_shadcn_version",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_list_installed"
     ],
     "29": [
       "agents_skills_design_system_templates_design_tokens_starter_bg_type",
@@ -850,18 +854,28 @@
     "30": [
       "agents_skills_ui_styling_scripts_shadcn_add_rationale_18",
       "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_104",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_124",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_223",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_205",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_45",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_51",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_66",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_success",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_with_overwrite",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_not_exists",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_custom_project_root"
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_custom_project_root",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root"
     ],
     "31": [
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_203",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_224",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_239",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_260",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json"
+    ],
+    "32": [
       "agents_skills_brand_scripts_inject_brand_context",
       "agents_skills_brand_scripts_inject_brand_context_extractcolorsfromtable",
       "agents_skills_brand_scripts_inject_brand_context_extractcoreattributes",
@@ -874,7 +888,7 @@
       "agents_skills_brand_scripts_inject_brand_context_main",
       "agents_skills_brand_scripts_inject_brand_context_path"
     ],
-    "32": [
+    "33": [
       "agents_skills_design_system_scripts_embed_tokens",
       "agents_skills_design_system_scripts_embed_tokens_args",
       "agents_skills_design_system_scripts_embed_tokens_extracttokens",
@@ -887,7 +901,7 @@
       "agents_skills_design_system_scripts_embed_tokens_tokenspath",
       "agents_skills_design_system_scripts_embed_tokens_wrapstyle"
     ],
-    "33": [
+    "34": [
       "agents_skills_design_system_templates_design_tokens_starter_duration_fast",
       "agents_skills_design_system_templates_design_tokens_starter_duration_normal",
       "agents_skills_design_system_templates_design_tokens_starter_duration_slow",
@@ -900,7 +914,7 @@
       "agents_skills_design_system_templates_design_tokens_starter_slow_type",
       "agents_skills_design_system_templates_design_tokens_starter_slow_value"
     ],
-    "34": [
+    "35": [
       "agents_skills_ui_styling_scripts_tailwind_config_gen",
       "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen",
       "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_1",
@@ -913,7 +927,7 @@
       "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testgeneratedconfigisvalidjs_test_node_check_parses_generated_config",
       "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testgeneratedconfigisvalidjs_test_property_before_plugins_is_comma_terminated"
     ],
-    "35": [
+    "36": [
       "agents_skills_ui_ux_pro_max_scripts_design_system_query_wants_dark",
       "agents_skills_ui_ux_pro_max_scripts_design_system_rationale_133",
       "agents_skills_ui_ux_pro_max_scripts_design_system_rationale_143",
@@ -926,20 +940,20 @@
       "agents_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testmoderesolution_test_either_signal_resolves_dark",
       "agents_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testmoderesolution_test_query_keywords"
     ],
-    "36": [
+    "37": [
       "composer",
+      "composer_autoload_dev",
+      "composer_autoload_dev_psr_4",
       "composer_description",
-      "composer_extra",
-      "composer_extra_laravel",
-      "composer_laravel_dont_discover",
       "composer_license",
       "composer_minimum_stability",
       "composer_name",
       "composer_prefer_stable",
+      "composer_psr_4_tests",
       "composer_schema",
       "composer_type"
     ],
-    "37": [
+    "38": [
       "composer_require_dev",
       "composer_require_dev_fakerphp_faker",
       "composer_require_dev_fruitcake_laravel_debugbar",
@@ -952,7 +966,7 @@
       "composer_require_dev_pestphp_pest",
       "composer_require_dev_pestphp_pest_plugin_laravel"
     ],
-    "38": [
+    "39": [
       "composer_scripts",
       "composer_scripts_dev",
       "composer_scripts_post_root_package_install",
@@ -965,7 +979,7 @@
       "ref_php_artisan_vendor_publish_tag_laravel_assets_ansi_force",
       "ref_php_r_file_exists_env_copy_env_example_env"
     ],
-    "39": [
+    "40": [
       "agents_skills_design_scripts_logo_generate",
       "agents_skills_design_scripts_logo_generate_enhance_prompt",
       "agents_skills_design_scripts_logo_generate_generate_batch",
@@ -977,7 +991,7 @@
       "agents_skills_design_scripts_logo_generate_rationale_231",
       "agents_skills_design_scripts_logo_generate_rationale_30"
     ],
-    "40": [
+    "41": [
       "agents_skills_design_system_scripts_generate_tokens",
       "agents_skills_design_system_scripts_generate_tokens_flattentokens",
       "agents_skills_design_system_scripts_generate_tokens_fs",
@@ -989,7 +1003,7 @@
       "agents_skills_design_system_scripts_generate_tokens_resolvereference",
       "agents_skills_design_system_scripts_generate_tokens_tocssvarname"
     ],
-    "41": [
+    "42": [
       "agents_skills_design_system_templates_design_tokens_starter_button_fg",
       "agents_skills_design_system_templates_design_tokens_starter_button_font_size",
       "agents_skills_design_system_templates_design_tokens_starter_button_hover_bg",
@@ -1001,7 +1015,7 @@
       "agents_skills_design_system_templates_design_tokens_starter_hover_bg_type",
       "agents_skills_design_system_templates_design_tokens_starter_hover_bg_value"
     ],
-    "42": [
+    "43": [
       "agents_skills_ui_styling_scripts_tailwind_config_gen_py_path",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_31",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_45",
@@ -1013,7 +1027,7 @@
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_init",
       "any"
     ],
-    "43": [
+    "44": [
       "agents_skills_brand_scripts_sync_brand_to_tokens",
       "agents_skills_brand_scripts_sync_brand_to_tokens_adjustbrightness",
       "agents_skills_brand_scripts_sync_brand_to_tokens_execfilesync",
@@ -1024,7 +1038,7 @@
       "agents_skills_brand_scripts_sync_brand_to_tokens_path",
       "agents_skills_brand_scripts_sync_brand_to_tokens_updatedesigntokens"
     ],
-    "44": [
+    "45": [
       "agents_skills_design_system_scripts_tests_test_validate_tokens",
       "agents_skills_design_system_scripts_tests_test_validate_tokens_py_path",
       "agents_skills_design_system_scripts_tests_test_validate_tokens_rationale_1",
@@ -1035,7 +1049,7 @@
       "agents_skills_design_system_scripts_tests_test_validate_tokens_test_token_only_line_reports_no_violation",
       "completedprocess"
     ],
-    "45": [
+    "46": [
       "jsconfig",
       "jsconfig_compileroptions",
       "jsconfig_compileroptions_baseurl",
@@ -1046,7 +1060,7 @@
       "ref_public",
       "ref_vendor_tightenco_ziggy"
     ],
-    "46": [
+    "47": [
       "agents_skills_design_system_templates_design_tokens_starter_button_padding_x",
       "agents_skills_design_system_templates_design_tokens_starter_component_input",
       "agents_skills_design_system_templates_design_tokens_starter_focus_ring_type",
@@ -1056,7 +1070,7 @@
       "agents_skills_design_system_templates_design_tokens_starter_padding_x_type",
       "agents_skills_design_system_templates_design_tokens_starter_padding_x_value"
     ],
-    "47": [
+    "48": [
       "agents_skills_design_system_templates_design_tokens_starter_default_type",
       "agents_skills_design_system_templates_design_tokens_starter_default_value",
       "agents_skills_design_system_templates_design_tokens_starter_full_type",
@@ -1065,20 +1079,6 @@
       "agents_skills_design_system_templates_design_tokens_starter_radius_default",
       "agents_skills_design_system_templates_design_tokens_starter_radius_full",
       "agents_skills_design_system_templates_design_tokens_starter_shadow_default"
-    ],
-    "48": [
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_203",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_224",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_239",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_260",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
     ],
     "49": [
       "agents_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
@@ -1222,16 +1222,16 @@
       "agents_skills_design_system_templates_design_tokens_starter_padding_y_value"
     ],
     "66": [
-      "agents_skills_design_system_templates_design_tokens_starter_fontsize_xl",
-      "agents_skills_design_system_templates_design_tokens_starter_radius_xl",
-      "agents_skills_design_system_templates_design_tokens_starter_xl_type",
-      "agents_skills_design_system_templates_design_tokens_starter_xl_value"
-    ],
-    "67": [
       "agents_skills_design_system_templates_design_tokens_starter_md_type",
       "agents_skills_design_system_templates_design_tokens_starter_md_value",
       "agents_skills_design_system_templates_design_tokens_starter_radius_md",
       "agents_skills_design_system_templates_design_tokens_starter_shadow_md"
+    ],
+    "67": [
+      "agents_skills_design_system_templates_design_tokens_starter_fontsize_xl",
+      "agents_skills_design_system_templates_design_tokens_starter_radius_xl",
+      "agents_skills_design_system_templates_design_tokens_starter_xl_type",
+      "agents_skills_design_system_templates_design_tokens_starter_xl_value"
     ],
     "68": [
       "agents_skills_design_system_templates_design_tokens_starter_none_type",
@@ -1298,311 +1298,315 @@
       "agents_skills_design_system_templates_design_tokens_starter_secondary_foreground_value"
     ],
     "80": [
-      "agents_skills_ui_styling_scripts_shadcn_add_py_path",
-      "agents_skills_ui_styling_scripts_shadcn_add_rationale_21",
-      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_init"
-    ],
-    "81": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_71",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files"
-    ],
-    "82": [
       "agents_skills_ui_styling_scripts_shadcn_add",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_1"
     ],
-    "83": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_291",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_javascript",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_typescript"
+    "81": [
+      "agents_skills_ui_styling_scripts_shadcn_add_py_path",
+      "agents_skills_ui_styling_scripts_shadcn_add_rationale_21",
+      "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_init"
     ],
-    "84": [
-      "composer_autoload_dev",
-      "composer_autoload_dev_psr_4",
-      "composer_psr_4_tests"
-    ],
-    "85": [
+    "82": [
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_248",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_list_installed_empty",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_list_installed_with_components"
     ],
+    "83": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_71",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files"
+    ],
+    "84": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_291",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_javascript",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_typescript"
+    ],
+    "85": [
+      "composer_extra",
+      "composer_extra_laravel",
+      "composer_laravel_dont_discover"
+    ],
     "86": [
-      "database_migrations_0001_01_01_000000_create_users_table",
-      "database_migrations_0001_01_01_000000_create_users_table_down",
-      "database_migrations_0001_01_01_000000_create_users_table_up"
-    ],
-    "87": [
-      "database_migrations_0001_01_01_000001_create_cache_table",
-      "database_migrations_0001_01_01_000001_create_cache_table_down",
-      "database_migrations_0001_01_01_000001_create_cache_table_up"
-    ],
-    "88": [
-      "database_migrations_0001_01_01_000002_create_jobs_table",
-      "database_migrations_0001_01_01_000002_create_jobs_table_down",
-      "database_migrations_0001_01_01_000002_create_jobs_table_up"
-    ],
-    "89": [
-      "illuminate_foundation_testing_testcase",
-      "tests_testcase",
-      "tests_testcase_testcase"
-    ],
-    "90": [
-      "resources_js_app",
-      "resources_js_app_setup",
-      "resources_js_bootstrap"
-    ],
-    "91": [
-      "resources_js_components_ui_button",
-      "resources_js_components_ui_button_button",
-      "resources_js_components_ui_button_buttonvariants"
-    ],
-    "92": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_112",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_already_installed"
-    ],
-    "93": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_182",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_subprocess_error"
-    ],
-    "94": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_195",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_npx_not_found"
-    ],
-    "95": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_56",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_dry_run"
-    ],
-    "96": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_61",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_exists"
-    ],
-    "97": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_96",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_components"
-    ],
-    "98": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_112",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_color_palette"
-    ],
-    "99": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_173",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins_no_duplicates"
-    ],
-    "100": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_182",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins"
-    ],
-    "101": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_190",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins_nextjs"
-    ],
-    "102": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_239",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_no_content"
-    ],
-    "103": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_26",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_javascript"
-    ],
-    "104": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_282",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_invalid_path"
-    ],
-    "105": [
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_88",
-      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors"
-    ],
-    "106": [
-      "artisan",
-      "routes_console"
-    ],
-    "107": [
-      "bootstrap_app",
-      "illuminate_foundation_configuration_middleware"
-    ],
-    "108": [
-      "bootstrap_ssr_assets_dashboard_s7v5buyv",
-      "bootstrap_ssr_assets_dashboard_s7v5buyv_dashboard"
-    ],
-    "109": [
-      "headlessui_react",
-      "package_devdependencies_headlessui_react"
-    ],
-    "110": [
-      "agents_skills_ui_ux_pro_max_scripts_search",
-      "agents_skills_ui_ux_pro_max_scripts_search_format_output",
-      "agents_skills_ui_ux_pro_max_scripts_search_rationale_45"
-    ],
-    "111": [
-      "package_devdependencies_tailwindcss_forms",
-      "tailwindcss_forms"
-    ],
-    "112": [
-      "package_devdependencies_tw_animate_css",
-      "tw_animate_css"
-    ],
-    "113": [
-      "package_devdependencies_vitejs_plugin_react",
-      "vitejs_plugin_react"
-    ],
-    "114": [
-      "resources_js_components_applicationlogo",
-      "resources_js_components_applicationlogo_applicationlogo"
-    ],
-    "115": [
-      "resources_js_components_checkbox",
-      "resources_js_components_checkbox_checkbox"
-    ],
-    "116": [
-      "resources_js_components_dangerbutton",
-      "resources_js_components_dangerbutton_dangerbutton"
-    ],
-    "117": [
-      "resources_js_components_inputerror",
-      "resources_js_components_inputerror_inputerror"
-    ],
-    "118": [
-      "resources_js_components_inputlabel",
-      "resources_js_components_inputlabel_inputlabel"
-    ],
-    "119": [
-      "resources_js_components_modal",
-      "resources_js_components_modal_modal"
-    ],
-    "120": [
-      "resources_js_components_navlink",
-      "resources_js_components_navlink_navlink"
-    ],
-    "121": [
-      "resources_js_components_primarybutton",
-      "resources_js_components_primarybutton_primarybutton"
-    ],
-    "122": [
-      "resources_js_components_responsivenavlink",
-      "resources_js_components_responsivenavlink_responsivenavlink"
-    ],
-    "123": [
-      "resources_js_components_secondarybutton",
-      "resources_js_components_secondarybutton_secondarybutton"
-    ],
-    "124": [
-      "resources_js_layouts_authenticatedlayout",
-      "resources_js_layouts_authenticatedlayout_authenticatedlayout"
-    ],
-    "125": [
-      "resources_js_layouts_guestlayout",
-      "resources_js_layouts_guestlayout_guestlayout"
-    ],
-    "126": [
-      "resources_js_lib_utils",
-      "resources_js_lib_utils_cn"
-    ],
-    "127": [
-      "resources_js_pages_auth_confirmpassword",
-      "resources_js_pages_auth_confirmpassword_confirmpassword"
-    ],
-    "128": [
-      "resources_js_pages_auth_forgotpassword",
-      "resources_js_pages_auth_forgotpassword_forgotpassword"
-    ],
-    "129": [
-      "resources_js_pages_auth_login",
-      "resources_js_pages_auth_login_login"
-    ],
-    "130": [
-      "resources_js_pages_auth_otpverify",
-      "resources_js_pages_auth_otpverify_otpverify"
-    ],
-    "131": [
-      "resources_js_pages_auth_register",
-      "resources_js_pages_auth_register_register"
-    ],
-    "132": [
-      "resources_js_pages_auth_resetpassword",
-      "resources_js_pages_auth_resetpassword_resetpassword"
-    ],
-    "133": [
-      "resources_js_pages_auth_verifyemail",
-      "resources_js_pages_auth_verifyemail_verifyemail"
-    ],
-    "134": [
-      "resources_js_pages_dashboard",
-      "resources_js_pages_dashboard_dashboard"
-    ],
-    "135": [
-      "resources_js_pages_welcome",
-      "resources_js_pages_welcome_welcome"
-    ],
-    "136": [
-      "tests_pest",
-      "tests_pest_something"
-    ],
-    "137": [
-      "bootstrap_providers"
-    ],
-    "138": [
-      "config_app"
-    ],
-    "139": [
-      "config_auth"
-    ],
-    "140": [
-      "config_cache"
-    ],
-    "141": [
-      "config_database"
-    ],
-    "142": [
-      "config_filesystems"
-    ],
-    "143": [
-      "config_logging"
-    ],
-    "144": [
-      "config_mail"
-    ],
-    "145": [
-      "config_queue"
-    ],
-    "146": [
-      "config_services"
-    ],
-    "147": [
-      "config_session"
-    ],
-    "148": [
-      "public_index"
-    ],
-    "149": [
-      "resources_js_components_textinput"
-    ],
-    "150": [
-      "resources_js_ssr"
-    ],
-    "151": [
-      "resources_views_app_blade"
-    ],
-    "152": [
-      "tests_feature_auth_registrationtest"
-    ],
-    "153": [
-      "tests_feature_exampletest"
-    ],
-    "154": [
-      "tests_unit_exampletest"
-    ],
-    "155": [
-      "vite_config"
-    ],
-    "156": [
       "composer_keywords",
       "ref_framework",
       "ref_laravel"
     ],
-    "157": [
+    "87": [
+      "database_migrations_0001_01_01_000000_create_users_table",
+      "database_migrations_0001_01_01_000000_create_users_table_down",
+      "database_migrations_0001_01_01_000000_create_users_table_up"
+    ],
+    "88": [
+      "database_migrations_0001_01_01_000001_create_cache_table",
+      "database_migrations_0001_01_01_000001_create_cache_table_down",
+      "database_migrations_0001_01_01_000001_create_cache_table_up"
+    ],
+    "89": [
+      "database_migrations_0001_01_01_000002_create_jobs_table",
+      "database_migrations_0001_01_01_000002_create_jobs_table_down",
+      "database_migrations_0001_01_01_000002_create_jobs_table_up"
+    ],
+    "90": [
+      "illuminate_foundation_testing_testcase",
+      "tests_testcase",
+      "tests_testcase_testcase"
+    ],
+    "91": [
+      "resources_js_app",
+      "resources_js_app_setup",
+      "resources_js_bootstrap"
+    ],
+    "92": [
+      "resources_js_components_ui_button",
+      "resources_js_components_ui_button_button",
+      "resources_js_components_ui_button_buttonvariants"
+    ],
+    "93": [
+      "agents_skills_ui_ux_pro_max_scripts_search",
+      "agents_skills_ui_ux_pro_max_scripts_search_format_output",
+      "agents_skills_ui_ux_pro_max_scripts_search_rationale_45"
+    ],
+    "94": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_182",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_subprocess_error"
+    ],
+    "95": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_195",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_npx_not_found"
+    ],
+    "96": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_56",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_dry_run"
+    ],
+    "97": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_61",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_exists"
+    ],
+    "98": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_96",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_components"
+    ],
+    "99": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_112",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_color_palette"
+    ],
+    "100": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_173",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins_no_duplicates"
+    ],
+    "101": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_182",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins"
+    ],
+    "102": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_190",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins_nextjs"
+    ],
+    "103": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_239",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_no_content"
+    ],
+    "104": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_26",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_javascript"
+    ],
+    "105": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_282",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_invalid_path"
+    ],
+    "106": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_rationale_88",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors"
+    ],
+    "107": [
+      "artisan",
+      "routes_console"
+    ],
+    "108": [
       "axios",
       "package_devdependencies_axios"
+    ],
+    "109": [
+      "bootstrap_app",
+      "illuminate_foundation_configuration_middleware"
+    ],
+    "110": [
+      "bootstrap_ssr_assets_dashboard_s7v5buyv",
+      "bootstrap_ssr_assets_dashboard_s7v5buyv_dashboard"
+    ],
+    "111": [
+      "headlessui_react",
+      "package_devdependencies_headlessui_react"
+    ],
+    "112": [
+      "package_devdependencies_tailwindcss_forms",
+      "tailwindcss_forms"
+    ],
+    "113": [
+      "package_devdependencies_tw_animate_css",
+      "tw_animate_css"
+    ],
+    "114": [
+      "package_devdependencies_vitejs_plugin_react",
+      "vitejs_plugin_react"
+    ],
+    "115": [
+      "resources_js_components_applicationlogo",
+      "resources_js_components_applicationlogo_applicationlogo"
+    ],
+    "116": [
+      "resources_js_components_checkbox",
+      "resources_js_components_checkbox_checkbox"
+    ],
+    "117": [
+      "resources_js_components_dangerbutton",
+      "resources_js_components_dangerbutton_dangerbutton"
+    ],
+    "118": [
+      "resources_js_components_inputerror",
+      "resources_js_components_inputerror_inputerror"
+    ],
+    "119": [
+      "resources_js_components_inputlabel",
+      "resources_js_components_inputlabel_inputlabel"
+    ],
+    "120": [
+      "resources_js_components_modal",
+      "resources_js_components_modal_modal"
+    ],
+    "121": [
+      "resources_js_components_navlink",
+      "resources_js_components_navlink_navlink"
+    ],
+    "122": [
+      "resources_js_components_primarybutton",
+      "resources_js_components_primarybutton_primarybutton"
+    ],
+    "123": [
+      "resources_js_components_responsivenavlink",
+      "resources_js_components_responsivenavlink_responsivenavlink"
+    ],
+    "124": [
+      "resources_js_components_secondarybutton",
+      "resources_js_components_secondarybutton_secondarybutton"
+    ],
+    "125": [
+      "resources_js_layouts_authenticatedlayout",
+      "resources_js_layouts_authenticatedlayout_authenticatedlayout"
+    ],
+    "126": [
+      "resources_js_layouts_guestlayout",
+      "resources_js_layouts_guestlayout_guestlayout"
+    ],
+    "127": [
+      "resources_js_lib_utils",
+      "resources_js_lib_utils_cn"
+    ],
+    "128": [
+      "resources_js_pages_auth_confirmpassword",
+      "resources_js_pages_auth_confirmpassword_confirmpassword"
+    ],
+    "129": [
+      "resources_js_pages_auth_forgotpassword",
+      "resources_js_pages_auth_forgotpassword_forgotpassword"
+    ],
+    "130": [
+      "resources_js_pages_auth_login",
+      "resources_js_pages_auth_login_login"
+    ],
+    "131": [
+      "resources_js_pages_auth_otpverify",
+      "resources_js_pages_auth_otpverify_otpverify"
+    ],
+    "132": [
+      "resources_js_pages_auth_register",
+      "resources_js_pages_auth_register_register"
+    ],
+    "133": [
+      "resources_js_pages_auth_resetpassword",
+      "resources_js_pages_auth_resetpassword_resetpassword"
+    ],
+    "134": [
+      "resources_js_pages_auth_vendorregister",
+      "resources_js_pages_auth_vendorregister_vendorregister"
+    ],
+    "135": [
+      "resources_js_pages_auth_verifyemail",
+      "resources_js_pages_auth_verifyemail_verifyemail"
+    ],
+    "136": [
+      "resources_js_pages_dashboard",
+      "resources_js_pages_dashboard_dashboard"
+    ],
+    "137": [
+      "resources_js_pages_welcome",
+      "resources_js_pages_welcome_welcome"
+    ],
+    "138": [
+      "tests_pest",
+      "tests_pest_something"
+    ],
+    "139": [
+      "bootstrap_providers"
+    ],
+    "140": [
+      "config_app"
+    ],
+    "141": [
+      "config_auth"
+    ],
+    "142": [
+      "config_cache"
+    ],
+    "143": [
+      "config_database"
+    ],
+    "144": [
+      "config_filesystems"
+    ],
+    "145": [
+      "config_logging"
+    ],
+    "146": [
+      "config_mail"
+    ],
+    "147": [
+      "config_queue"
+    ],
+    "148": [
+      "config_services"
+    ],
+    "149": [
+      "config_session"
+    ],
+    "150": [
+      "public_index"
+    ],
+    "151": [
+      "resources_js_components_textinput"
+    ],
+    "152": [
+      "resources_js_ssr"
+    ],
+    "153": [
+      "resources_views_app_blade"
+    ],
+    "154": [
+      "tests_feature_auth_registrationtest"
+    ],
+    "155": [
+      "tests_feature_exampletest"
+    ],
+    "156": [
+      "tests_unit_exampletest"
+    ],
+    "157": [
+      "vite_config"
+    ],
+    "158": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_223",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_success"
     ]
   },
   "cohesion": {
@@ -1623,38 +1627,38 @@
     "14": 0.14736842105263157,
     "15": 0.1,
     "16": 0.10526315789473684,
-    "17": 0.13333333333333333,
-    "18": 0.10526315789473684,
-    "19": 0.16993464052287582,
-    "20": 0.11764705882352941,
-    "21": 0.2,
-    "22": 0.125,
-    "23": 0.21794871794871795,
-    "24": 0.14166666666666666,
-    "25": 0.175,
-    "26": 0.25274725274725274,
-    "27": 0.24358974358974358,
-    "28": 0.15384615384615385,
+    "17": 0.10526315789473684,
+    "18": 0.16993464052287582,
+    "19": 0.11764705882352941,
+    "20": 0.2,
+    "21": 0.125,
+    "22": 0.14166666666666666,
+    "23": 0.175,
+    "24": 0.1111111111111111,
+    "25": 0.25274725274725274,
+    "26": 0.24358974358974358,
+    "27": 0.15384615384615385,
+    "28": 0.21794871794871795,
     "29": 0.19696969696969696,
     "30": 0.16666666666666666,
-    "31": 0.3090909090909091,
-    "32": 0.2,
-    "33": 0.18181818181818182,
-    "34": 0.2,
-    "35": 0.23636363636363636,
-    "36": 0.18181818181818182,
+    "31": 0.2857142857142857,
+    "32": 0.3090909090909091,
+    "33": 0.2,
+    "34": 0.18181818181818182,
+    "35": 0.2,
+    "36": 0.23636363636363636,
     "37": 0.18181818181818182,
     "38": 0.18181818181818182,
-    "39": 0.28888888888888886,
-    "40": 0.35555555555555557,
-    "41": 0.2,
-    "42": 0.2222222222222222,
-    "43": 0.3333333333333333,
-    "44": 0.2777777777777778,
-    "45": 0.2222222222222222,
-    "46": 0.2857142857142857,
+    "39": 0.18181818181818182,
+    "40": 0.28888888888888886,
+    "41": 0.35555555555555557,
+    "42": 0.2,
+    "43": 0.2222222222222222,
+    "44": 0.3333333333333333,
+    "45": 0.2777777777777778,
+    "46": 0.2222222222222222,
     "47": 0.2857142857142857,
-    "48": 0.19696969696969696,
+    "48": 0.2857142857142857,
     "49": 0.2857142857142857,
     "50": 0.25,
     "51": 0.35714285714285715,
@@ -1697,9 +1701,9 @@
     "88": 0.6666666666666666,
     "89": 0.6666666666666666,
     "90": 0.6666666666666666,
-    "91": 1.0,
+    "91": 0.6666666666666666,
     "92": 1.0,
-    "93": 1.0,
+    "93": 0.6666666666666666,
     "94": 1.0,
     "95": 1.0,
     "96": 1.0,
@@ -1716,7 +1720,7 @@
     "107": 1.0,
     "108": 1.0,
     "109": 1.0,
-    "110": 0.6666666666666666,
+    "110": 1.0,
     "111": 1.0,
     "112": 1.0,
     "113": 1.0,
@@ -1762,8 +1766,9 @@
     "153": 1.0,
     "154": 1.0,
     "155": 1.0,
-    "156": 0.6666666666666666,
-    "157": 1.0
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0
   },
   "gods": [
     {

@@ -708,5 +708,10 @@
     "mtime": 1786004530.4074595,
     "ast_hash": "ce11876f42af30b7f485afc256618d29",
     "semantic_hash": "ce11876f42af30b7f485afc256618d29"
+  },
+  "resources/js/Pages/Auth/VendorRegister.jsx": {
+    "mtime": 1786004556.2976537,
+    "ast_hash": "76e942c8905c7851b9535fc18da3bbd1",
+    "semantic_hash": "76e942c8905c7851b9535fc18da3bbd1"
   }
 }
