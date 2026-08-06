@@ -738,5 +738,10 @@
     "mtime": 1786004681.594176,
     "ast_hash": "593a46639526e9571853652f75212af8",
     "semantic_hash": "593a46639526e9571853652f75212af8"
+  },
+  "resources/js/Pages/User/Vendor/Products/Form.jsx": {
+    "mtime": 1786004705.366887,
+    "ast_hash": "ab7179abdb3339f4fb5199cb66ade9d1",
+    "semantic_hash": "ab7179abdb3339f4fb5199cb66ade9d1"
   }
 }
