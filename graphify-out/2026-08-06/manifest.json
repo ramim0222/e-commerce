@@ -703,5 +703,10 @@
     "mtime": 1784588274.5460415,
     "ast_hash": "a0198dc325531fa3082d0f430acf01a6",
     "semantic_hash": "a0198dc325531fa3082d0f430acf01a6"
+  },
+  "resources/js/Pages/Auth/OtpVerify.jsx": {
+    "mtime": 1786004530.4074595,
+    "ast_hash": "ce11876f42af30b7f485afc256618d29",
+    "semantic_hash": "ce11876f42af30b7f485afc256618d29"
   }
 }
