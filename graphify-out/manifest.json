@@ -763,5 +763,10 @@
     "mtime": 1786004808.331919,
     "ast_hash": "a877da4da733235f03853e64562cb712",
     "semantic_hash": "a877da4da733235f03853e64562cb712"
+  },
+  "resources/js/Pages/Front/VendorStorePage.jsx": {
+    "mtime": 1786004831.876467,
+    "ast_hash": "b5edd69aac5db98140abcfe7f2b80589",
+    "semantic_hash": "b5edd69aac5db98140abcfe7f2b80589"
   }
 }

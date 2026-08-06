@@ -4,12 +4,12 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1310 nodes · 1872 edges · 169 communities (138 shown, 31 thin omitted)
+- 1312 nodes · 1873 edges · 170 communities (139 shown, 31 thin omitted)
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 191 edges (avg confidence: 0.73)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fb162eed`
+- Built from commit: `8ccb0931`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -62,11 +62,11 @@
 - compilerOptions
 - input
 - radius
-- .generate_config_string
+- ._generate_javascript
+- generate_design_system
 - package.json
 - Edit.jsx
 - _filter_anti_patterns_for_mode
-- generate_design_system
 - _select_palette_for_mode
 - AppServiceProvider
 - config
@@ -88,9 +88,9 @@
 - post-create-project-cmd
 - test_sync_brand_to_tokens.py
 - main
-- destructive
 - destructive-foreground
 - muted
+- destructive
 - primary-foreground
 - ring
 - secondary-foreground
@@ -120,7 +120,7 @@
 - .test_add_colors
 - axios
 - bootstrap/app.php
-- laravel-vite-plugin
+- @headlessui/react
 - @tailwindcss/forms
 - tw-animate-css
 - @vitejs/plugin-react
@@ -152,7 +152,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (169 total, 31 thin omitted)
+## Communities (170 total, 31 thin omitted)
 
 ### Community 0 - "Illuminate\Http\Request"
 Cohesion: 0.05
@@ -223,12 +223,12 @@ Cohesion: 0.11
 Nodes (19): $type, $value, background, foreground, muted-foreground, primary, primary-hover, secondary (+11 more)
 
 ### Community 17 - "main"
-Cohesion: 0.13
-Nodes (8): main(), Add custom font families.          Args:             fonts: Dict of font_type, Add custom spacing values.          Args:             spacing: Dict of name:, Add custom breakpoints.          Args:             breakpoints: Dict of name:, Add plugin requirements.          Args:             plugins: List of plugin n, Get plugin recommendations based on configuration.          Returns:, Validate configuration.          Returns:             Tuple of (valid, messag, Add custom colors to theme.          Args:             colors: Dict of color_
+Cohesion: 0.11
+Nodes (10): main(), Add custom font families.          Args:             fonts: Dict of font_type, Add custom spacing values.          Args:             spacing: Dict of name:, Add custom breakpoints.          Args:             breakpoints: Dict of name:, Add plugin requirements.          Args:             plugins: List of plugin n, Get plugin recommendations based on configuration.          Returns:, Generate configuration file content.          Returns:             Configurat, Write configuration to file.          Returns:             Tuple of (success, (+2 more)
 
 ### Community 18 - "devDependencies"
 Cohesion: 0.11
-Nodes (19): autoprefixer, concurrently, @headlessui/react, @inertiajs/react, devDependencies, autoprefixer, concurrently, @headlessui/react (+11 more)
+Nodes (19): autoprefixer, concurrently, @inertiajs/react, laravel-vite-plugin, devDependencies, autoprefixer, concurrently, @inertiajs/react (+11 more)
 
 ### Community 19 - "fetch-background.py"
 Cohesion: 0.17
@@ -346,25 +346,25 @@ Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
 Cohesion: 0.29
 Nodes (8): xl, $type, $value, radius, full, xl, $type, $value
 
-### Community 48 - ".generate_config_string"
-Cohesion: 0.20
-Nodes (6): Generate configuration file content.          Returns:             Configurat, Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string., Write configuration to file.          Returns:             Tuple of (success,
+### Community 48 - "._generate_javascript"
+Cohesion: 0.29
+Nodes (4): Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string.
 
-### Community 49 - "package.json"
+### Community 49 - "generate_design_system"
+Cohesion: 0.29
+Nodes (5): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation.      Args:         query: Sear, TestPersistence
+
+### Community 50 - "package.json"
 Cohesion: 0.25
 Nodes (7): name, private, $schema, scripts, build, dev, type
 
-### Community 50 - "Edit.jsx"
+### Community 51 - "Edit.jsx"
 Cohesion: 0.36
 Nodes (3): DeleteUserForm(), UpdatePasswordForm(), UpdateProfileInformation()
 
-### Community 51 - "_filter_anti_patterns_for_mode"
+### Community 52 - "_filter_anti_patterns_for_mode"
 Cohesion: 0.43
 Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
-
-### Community 52 - "generate_design_system"
-Cohesion: 0.33
-Nodes (5): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation.      Args:         query: Sear, TestPersistence
 
 ### Community 53 - "_select_palette_for_mode"
 Cohesion: 0.43
@@ -438,17 +438,17 @@ Nodes (4): post-autoload-dump, @php artisan clear-compiled, @php artisan config:
 Cohesion: 0.50
 Nodes (4): post-create-project-cmd, @php artisan key:generate --ansi, @php artisan migrate --graceful --ansi, @php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\
 
-### Community 74 - "destructive"
-Cohesion: 0.67
-Nodes (3): destructive, $type, $value
-
-### Community 75 - "destructive-foreground"
+### Community 74 - "destructive-foreground"
 Cohesion: 0.67
 Nodes (3): destructive-foreground, $type, $value
 
-### Community 76 - "muted"
+### Community 75 - "muted"
 Cohesion: 0.67
 Nodes (3): muted, $type, $value
+
+### Community 76 - "destructive"
+Cohesion: 0.67
+Nodes (3): destructive, $type, $value
 
 ### Community 77 - "primary-foreground"
 Cohesion: 0.67
@@ -480,7 +480,7 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `primitive` connect `primitive` to `gray`, `spacing`, `radius`, `fontSize`, `shadow`, `design-tokens-starter.json`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `BM25` connect `BM25` to `DesignSystemGenerator`, `search`, `generate_design_system`?**
+- **Why does `BM25` connect `BM25` to `DesignSystemGenerator`, `generate_design_system`, `search`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `component` connect `design-tokens-starter.json` to `button`, `card`, `input`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
