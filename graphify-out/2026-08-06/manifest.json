@@ -723,5 +723,10 @@
     "mtime": 1786004606.0365946,
     "ast_hash": "3dd0ec3a17c4878756a88548f4f45712",
     "semantic_hash": "3dd0ec3a17c4878756a88548f4f45712"
+  },
+  "resources/js/Pages/SuperAdmin/Vendors/Detail.jsx": {
+    "mtime": 1786004628.6233616,
+    "ast_hash": "3a28bb284b2af01a600603d97a4f0f3b",
+    "semantic_hash": "3a28bb284b2af01a600603d97a4f0f3b"
   }
 }
