@@ -614,6 +614,8 @@
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_149",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_162",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_174",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_285",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_84",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_breakpoints",
@@ -621,8 +623,10 @@
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_fonts",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_plugins",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_add_spacing",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_recommend_plugins",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config"
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
     ],
     "18": [
       "autoprefixer",
@@ -721,20 +725,20 @@
       "agents_skills_design_system_templates_design_tokens_starter_xs_value"
     ],
     "23": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_147",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_158",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_18",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_205",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_22",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_45",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_71",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_90",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_temp_project",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_success",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root",
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_list_installed_no_config"
     ],
@@ -1069,18 +1073,14 @@
       "agents_skills_design_system_templates_design_tokens_starter_shadow_default"
     ],
     "49": [
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_203",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_224",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_239",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_260",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript",
       "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json",
-      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json"
     ],
     "50": [
       "agents_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
@@ -1310,9 +1310,9 @@
       "agents_skills_ui_styling_scripts_shadcn_add_shadcninstaller_init"
     ],
     "83": [
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_71",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty",
-      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files"
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_147",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run"
     ],
     "84": [
       "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_248",
@@ -1621,7 +1621,7 @@
     "14": 0.14736842105263157,
     "15": 0.1,
     "16": 0.10526315789473684,
-    "17": 0.13333333333333333,
+    "17": 0.1111111111111111,
     "18": 0.10526315789473684,
     "19": 0.16993464052287582,
     "20": 0.11764705882352941,
@@ -1653,7 +1653,7 @@
     "46": 0.2222222222222222,
     "47": 0.2857142857142857,
     "48": 0.2857142857142857,
-    "49": 0.19696969696969696,
+    "49": 0.2857142857142857,
     "50": 0.2857142857142857,
     "51": 0.25,
     "52": 0.35714285714285715,
@@ -1872,41 +1872,8 @@
       "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `primitive` connect `primitive` to `gray`, `spacing`, `radius`, `fontSize`, `shadow`, `design-tokens-starter.json`?",
-      "why": "High betweenness centrality (0.024) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `BM25` connect `BM25` to `DesignSystemGenerator`, `generate_design_system`, `search`?",
-      "why": "High betweenness centrality (0.013) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `component` connect `design-tokens-starter.json` to `button`, `card`, `input`?",
-      "why": "High betweenness centrality (0.012) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 36 inferred relationships involving `TailwindConfigGenerator` (e.g. with `TestGeneratedConfigIsValidJs` and `.test_node_check_parses_generated_config()`) actually correct?",
-      "why": "`TailwindConfigGenerator` has 36 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 23 inferred relationships involving `ShadcnInstaller` (e.g. with `TestShadcnInstaller` and `.test_add_all_components_dry_run()`) actually correct?",
-      "why": "`ShadcnInstaller` has 23 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 16 inferred relationships involving `DesignSystemGenerator` (e.g. with `TestDomainDetection` and `TestPersistence`) actually correct?",
-      "why": "`DesignSystemGenerator` has 16 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `fs`, `path`, `fs` to the rest of the system?",
-      "why": "219 weakly-connected nodes found - possible documentation gaps or missing edges."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }

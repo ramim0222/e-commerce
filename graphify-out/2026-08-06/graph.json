@@ -3289,7 +3289,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "sm",
-      "community_name": "shadow",
+      "community_name": "sm",
       "id": "agents_skills_design_system_templates_design_tokens_starter_fontsize_sm"
     },
     {
@@ -3300,7 +3300,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "$value",
-      "community_name": "shadow",
+      "community_name": "sm",
       "id": "agents_skills_design_system_templates_design_tokens_starter_sm_value"
     },
     {
@@ -3311,7 +3311,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "$type",
-      "community_name": "shadow",
+      "community_name": "sm",
       "id": "agents_skills_design_system_templates_design_tokens_starter_sm_type"
     },
     {
@@ -3531,7 +3531,7 @@
       "_origin": "ast",
       "community": 69,
       "norm_label": "none",
-      "community_name": "none",
+      "community_name": "radius",
       "id": "agents_skills_design_system_templates_design_tokens_starter_radius_none"
     },
     {
@@ -3542,7 +3542,7 @@
       "_origin": "ast",
       "community": 69,
       "norm_label": "$value",
-      "community_name": "none",
+      "community_name": "radius",
       "id": "agents_skills_design_system_templates_design_tokens_starter_none_value"
     },
     {
@@ -3553,7 +3553,7 @@
       "_origin": "ast",
       "community": 69,
       "norm_label": "$type",
-      "community_name": "none",
+      "community_name": "radius",
       "id": "agents_skills_design_system_templates_design_tokens_starter_none_type"
     },
     {
@@ -3564,7 +3564,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "sm",
-      "community_name": "shadow",
+      "community_name": "sm",
       "id": "agents_skills_design_system_templates_design_tokens_starter_radius_sm"
     },
     {
@@ -3696,7 +3696,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "shadow",
-      "community_name": "shadow",
+      "community_name": "radius",
       "id": "agents_skills_design_system_templates_design_tokens_starter_primitive_shadow"
     },
     {
@@ -3707,7 +3707,7 @@
       "_origin": "ast",
       "community": 69,
       "norm_label": "none",
-      "community_name": "none",
+      "community_name": "radius",
       "id": "agents_skills_design_system_templates_design_tokens_starter_shadow_none"
     },
     {
@@ -3718,7 +3718,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "sm",
-      "community_name": "shadow",
+      "community_name": "sm",
       "id": "agents_skills_design_system_templates_design_tokens_starter_shadow_sm"
     },
     {
@@ -5995,7 +5995,7 @@
       "_origin": "ast",
       "community": 81,
       "norm_label": "shadcn_add.py",
-      "community_name": "shadcn_add.py",
+      "community_name": ".add_components",
       "id": "agents_skills_ui_styling_scripts_shadcn_add"
     },
     {
@@ -6367,9 +6367,9 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L191",
       "_origin": "ast",
-      "community": 49,
+      "community": 17,
       "norm_label": ".generate_config_string()",
-      "community_name": ".generate_config_string",
+      "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string"
     },
     {
@@ -6380,7 +6380,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "._generate_typescript()",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript"
     },
     {
@@ -6391,7 +6391,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "._generate_javascript()",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript"
     },
     {
@@ -6402,7 +6402,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "._format_plugins()",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins"
     },
     {
@@ -6413,7 +6413,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "._indent_json()",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json"
     },
     {
@@ -6422,9 +6422,9 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L267",
       "_origin": "ast",
-      "community": 49,
+      "community": 17,
       "norm_label": ".write_config()",
-      "community_name": ".generate_config_string",
+      "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
     },
     {
@@ -6587,9 +6587,9 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L192",
       "_origin": "ast",
-      "community": 49,
+      "community": 17,
       "norm_label": "generate configuration file content.          returns:             configurat",
-      "community_name": ".generate_config_string",
+      "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192"
     },
     {
@@ -6600,7 +6600,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "generate typescript configuration.",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_203"
     },
     {
@@ -6611,7 +6611,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "generate javascript configuration.",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_224"
     },
     {
@@ -6622,7 +6622,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "format plugins array for config.          validates each plugin name against a",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_239"
     },
     {
@@ -6633,7 +6633,7 @@
       "_origin": "ast",
       "community": 49,
       "norm_label": "add indentation to json string.",
-      "community_name": ".generate_config_string",
+      "community_name": "._generate_javascript",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_260"
     },
     {
@@ -6642,9 +6642,9 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L268",
       "_origin": "ast",
-      "community": 49,
+      "community": 17,
       "norm_label": "write configuration to file.          returns:             tuple of (success,",
-      "community_name": ".generate_config_string",
+      "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268"
     },
     {
@@ -6666,7 +6666,7 @@
       "_origin": "ast",
       "community": 81,
       "norm_label": "test_shadcn_add.py",
-      "community_name": "shadcn_add.py",
+      "community_name": ".add_components",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add"
     },
     {
@@ -6699,7 +6699,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": ".test_init_default_project_root()",
-      "community_name": "TestShadcnInstaller",
+      "community_name": "ShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root"
     },
     {
@@ -6752,7 +6752,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 83,
+      "community": 23,
       "norm_label": ".test_get_installed_components_empty()",
       "community_name": ".test_get_installed_components_empty",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty"
@@ -6763,7 +6763,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L76",
       "_origin": "ast",
-      "community": 83,
+      "community": 23,
       "norm_label": ".test_get_installed_components_with_files()",
       "community_name": ".test_get_installed_components_empty",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files"
@@ -6798,7 +6798,7 @@
       "_origin": "ast",
       "community": 31,
       "norm_label": ".test_add_components_no_config()",
-      "community_name": "ShadcnInstaller",
+      "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_config"
     },
     {
@@ -6809,7 +6809,7 @@
       "_origin": "ast",
       "community": 95,
       "norm_label": ".test_add_components_already_installed()",
-      "community_name": ".test_add_components_already_installed",
+      "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_already_installed"
     },
     {
@@ -6829,7 +6829,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L146",
       "_origin": "ast",
-      "community": 23,
+      "community": 83,
       "norm_label": ".test_add_components_dry_run()",
       "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run"
@@ -6875,7 +6875,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": ".test_add_all_components_no_config()",
-      "community_name": "TestShadcnInstaller",
+      "community_name": "ShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config"
     },
     {
@@ -6884,7 +6884,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L212",
       "_origin": "ast",
-      "community": 23,
+      "community": 83,
       "norm_label": ".test_add_all_components_dry_run()",
       "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run"
@@ -6897,7 +6897,7 @@
       "_origin": "ast",
       "community": 31,
       "norm_label": ".test_add_all_components_success()",
-      "community_name": "ShadcnInstaller",
+      "community_name": ".test_add_all_components_success",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_success"
     },
     {
@@ -6941,7 +6941,7 @@
       "_origin": "ast",
       "community": 81,
       "norm_label": "tests for shadcn_add.py",
-      "community_name": "shadcn_add.py",
+      "community_name": ".add_components",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_1"
     },
     {
@@ -6974,7 +6974,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "test initialization with default project root.",
-      "community_name": "TestShadcnInstaller",
+      "community_name": "ShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_45"
     },
     {
@@ -7027,7 +7027,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 83,
+      "community": 23,
       "norm_label": "test getting installed components when none exist.",
       "community_name": ".test_get_installed_components_empty",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_71"
@@ -7062,7 +7062,7 @@
       "_origin": "ast",
       "community": 31,
       "norm_label": "test adding components without shadcn config.",
-      "community_name": "ShadcnInstaller",
+      "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_104"
     },
     {
@@ -7073,7 +7073,7 @@
       "_origin": "ast",
       "community": 95,
       "norm_label": "test adding components that are already installed.",
-      "community_name": ".test_add_components_already_installed",
+      "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_112"
     },
     {
@@ -7093,7 +7093,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tests/test_shadcn_add.py",
       "source_location": "L147",
       "_origin": "ast",
-      "community": 23,
+      "community": 83,
       "norm_label": "test adding components in dry run mode.",
       "community_name": "TestShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_147"
@@ -7139,7 +7139,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "test adding all components without config.",
-      "community_name": "TestShadcnInstaller",
+      "community_name": "ShadcnInstaller",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_205"
     },
     {
@@ -7150,7 +7150,7 @@
       "_origin": "ast",
       "community": 31,
       "norm_label": "test successful addition of all components.",
-      "community_name": "ShadcnInstaller",
+      "community_name": ".test_add_all_components_success",
       "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_rationale_223"
     },
     {
@@ -12705,7 +12705,7 @@
       "_origin": "ast",
       "community": 110,
       "norm_label": "axios",
-      "community_name": "axios",
+      "community_name": "devDependencies",
       "id": "package_devdependencies_axios"
     },
     {
@@ -12716,7 +12716,7 @@
       "_origin": "ast",
       "community": 110,
       "norm_label": "axios",
-      "community_name": "axios",
+      "community_name": "devDependencies",
       "id": "axios"
     },
     {
@@ -12749,7 +12749,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "laravel-vite-plugin",
-      "community_name": "devDependencies",
+      "community_name": "laravel-vite-plugin",
       "id": "package_devdependencies_laravel_vite_plugin"
     },
     {
@@ -12760,7 +12760,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "laravel-vite-plugin",
-      "community_name": "devDependencies",
+      "community_name": "laravel-vite-plugin",
       "id": "laravel_vite_plugin"
     },
     {
@@ -14133,10 +14133,9 @@
       "source_file": "resources/js/Pages/Auth/Login.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
-      "norm_label": "login.jsx",
       "id": "resources_js_pages_auth_login",
-      "community_name": "Login.jsx"
+      "community": 132,
+      "norm_label": "login.jsx"
     },
     {
       "label": "Login()",
@@ -14144,10 +14143,9 @@
       "source_file": "resources/js/Pages/Auth/Login.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 132,
-      "norm_label": "login()",
       "id": "resources_js_pages_auth_login_login",
-      "community_name": "Login.jsx"
+      "community": 132,
+      "norm_label": "login()"
     }
   ],
   "links": [
@@ -35294,9 +35292,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "resources_js_pages_auth_login",
-      "target": "resources_js_pages_auth_login_login"
+      "target": "resources_js_pages_auth_login_login",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
