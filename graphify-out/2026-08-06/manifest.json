@@ -713,5 +713,10 @@
     "mtime": 1786004556.2976537,
     "ast_hash": "76e942c8905c7851b9535fc18da3bbd1",
     "semantic_hash": "76e942c8905c7851b9535fc18da3bbd1"
+  },
+  "resources/js/Pages/Auth/VendorPendingApproval.jsx": {
+    "mtime": 1786004578.394855,
+    "ast_hash": "9f7922f1594d1420bde7f7e72d3adc59",
+    "semantic_hash": "9f7922f1594d1420bde7f7e72d3adc59"
   }
 }
