@@ -853,5 +853,10 @@
     "mtime": 1786122975.107339,
     "ast_hash": "11e18f0a4764d58ab91e9c6b8e110df0",
     "semantic_hash": "11e18f0a4764d58ab91e9c6b8e110df0"
+  },
+  "resources/js/Pages/SuperAdmin/Reviews/Moderation.jsx": {
+    "mtime": 1786123047.4037187,
+    "ast_hash": "f208b18b6eef668b61ea48c260387a99",
+    "semantic_hash": "f208b18b6eef668b61ea48c260387a99"
   }
 }
