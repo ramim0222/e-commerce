@@ -833,5 +833,10 @@
     "mtime": 1786122499.9261022,
     "ast_hash": "7bb0607654c98113dcce94e229bebb82",
     "semantic_hash": "7bb0607654c98113dcce94e229bebb82"
+  },
+  "resources/js/Pages/Front/Account/OrderDetail.jsx": {
+    "mtime": 1786122525.1602457,
+    "ast_hash": "08e0e795692ff573565cc0b158a1f429",
+    "semantic_hash": "08e0e795692ff573565cc0b158a1f429"
   }
 }
