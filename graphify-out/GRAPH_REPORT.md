@@ -4,12 +4,12 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1316 nodes · 1875 edges · 172 communities (141 shown, 31 thin omitted)
+- 1318 nodes · 1876 edges · 174 communities (143 shown, 31 thin omitted)
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 191 edges (avg confidence: 0.73)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e01b9ceb`
+- Built from commit: `f1d9069a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,6 +31,7 @@
 - generate-slide.py
 - TailwindConfigGenerator
 - color
+- main
 - devDependencies
 - fetch-background.py
 - dependencies
@@ -38,17 +39,16 @@
 - fontSize
 - TestShadcnInstaller
 - _palette_is_dark
-- main
+- User.php
 - validate-asset.cjs
 - extract-colors.cjs
 - design-tokens-starter.json
 - .add_components
 - card
 - ShadcnInstaller
-- ._generate_javascript
 - inject-brand-context.cjs
 - embed-tokens.cjs
-- primitive
+- duration
 - test_tailwind_config_gen.py
 - _resolve_color_mode
 - composer.json
@@ -63,6 +63,7 @@
 - compilerOptions
 - input
 - radius
+- ._generate_javascript
 - generate_design_system
 - package.json
 - Edit.jsx
@@ -71,7 +72,7 @@
 - AppServiceProvider
 - config
 - require
-- shadow
+- sm
 - Welcome-CjACvcmL.js
 - UserFactory
 - Dropdown.jsx
@@ -81,30 +82,30 @@
 - psr-4
 - padding-y
 - xl
-- md
+- default
 - none
 - validate_data.py
 - post-autoload-dump
 - post-create-project-cmd
 - test_sync_brand_to_tokens.py
 - main
-- destructive
 - destructive-foreground
 - muted
+- destructive
 - primary-foreground
 - ring
 - secondary-foreground
 - shadcn_add.py
 - .__init__
 - .test_list_installed_empty
-- .test_get_installed_components_empty
+- .test_add_all_components_dry_run
 - .test_full_configuration_javascript
 - scripts/search.py
 - extra
 - keywords
 - TestCase
 - button.jsx
-- .test_add_components_already_installed
+- .test_add_components_success
 - .test_add_components_subprocess_error
 - .test_add_components_npx_not_found
 - .test_init_dry_run
@@ -152,11 +153,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (172 total, 31 thin omitted)
+## Communities (174 total, 31 thin omitted)
 
 ### Community 0 - "Illuminate\Http\Request"
-Cohesion: 0.05
-Nodes (26): AuthenticatedSessionController, ConfirmablePasswordController, EmailVerificationNotificationController, EmailVerificationPromptController, NewPasswordController, PasswordController, PasswordResetLinkController, RegisteredUserController (+18 more)
+Cohesion: 0.08
+Nodes (20): AuthenticatedSessionController, ConfirmablePasswordController, EmailVerificationNotificationController, EmailVerificationPromptController, NewPasswordController, PasswordController, PasswordResetLinkController, RegisteredUserController (+12 more)
 
 ### Community 1 - "gray"
 Cohesion: 0.05
@@ -222,65 +223,65 @@ Nodes (11): Generate Tailwind CSS configuration files., Add full color palette (
 Cohesion: 0.11
 Nodes (19): $type, $value, background, foreground, muted-foreground, primary, primary-hover, secondary (+11 more)
 
-### Community 17 - "devDependencies"
-Cohesion: 0.11
-Nodes (19): autoprefixer, concurrently, @inertiajs/react, laravel-vite-plugin, devDependencies, autoprefixer, concurrently, @inertiajs/react (+11 more)
-
-### Community 18 - "fetch-background.py"
-Cohesion: 0.17
-Nodes (17): generate_css_for_background(), get_background_image(), get_curated_images(), get_overlay_css(), get_pexels_search_url(), load_backgrounds_config(), load_brand_colors(), main() (+9 more)
-
-### Community 19 - "dependencies"
-Cohesion: 0.12
-Nodes (17): @base-ui/react, class-variance-authority, clsx, @fontsource-variable/geist, gsap, lucide-react, dependencies, @base-ui/react (+9 more)
-
-### Community 20 - "icon/generate.py"
-Cohesion: 0.20
-Nodes (15): apply_color(), apply_viewbox_size(), extract_svgs(), generate_batch(), generate_icon(), generate_sizes(), load_env(), main() (+7 more)
-
-### Community 21 - "fontSize"
-Cohesion: 0.12
-Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
-
-### Community 22 - "TestShadcnInstaller"
-Cohesion: 0.14
-Nodes (8): Test adding components in dry run mode., Test successful component addition., Test ShadcnInstaller class., Test adding all components without config., Create temporary project structure., Test initialization with default project root., Test getting installed components without config., TestShadcnInstaller
-
-### Community 23 - "_palette_is_dark"
-Cohesion: 0.17
-Nodes (7): _palette_is_dark(), WCAG relative luminance of a #RRGGBB string, or None if unparseable., True when a colors.csv row's Background is a dark surface., _relative_luminance(), The exact reproduction from issue #428., TestEndToEndCoherence, TestLuminance
-
-### Community 24 - "main"
+### Community 17 - "main"
 Cohesion: 0.11
 Nodes (10): main(), Add custom font families.          Args:             fonts: Dict of font_type, Add custom spacing values.          Args:             spacing: Dict of name:, Add custom breakpoints.          Args:             breakpoints: Dict of name:, Add plugin requirements.          Args:             plugins: List of plugin n, Get plugin recommendations based on configuration.          Returns:, Generate configuration file content.          Returns:             Configurat, Write configuration to file.          Returns:             Tuple of (success, (+2 more)
 
-### Community 25 - "validate-asset.cjs"
+### Community 18 - "devDependencies"
+Cohesion: 0.11
+Nodes (19): autoprefixer, concurrently, @inertiajs/react, laravel-vite-plugin, devDependencies, autoprefixer, concurrently, @inertiajs/react (+11 more)
+
+### Community 19 - "fetch-background.py"
+Cohesion: 0.17
+Nodes (17): generate_css_for_background(), get_background_image(), get_curated_images(), get_overlay_css(), get_pexels_search_url(), load_backgrounds_config(), load_brand_colors(), main() (+9 more)
+
+### Community 20 - "dependencies"
+Cohesion: 0.12
+Nodes (17): @base-ui/react, class-variance-authority, clsx, @fontsource-variable/geist, gsap, lucide-react, dependencies, @base-ui/react (+9 more)
+
+### Community 21 - "icon/generate.py"
+Cohesion: 0.20
+Nodes (15): apply_color(), apply_viewbox_size(), extract_svgs(), generate_batch(), generate_icon(), generate_sizes(), load_env(), main() (+7 more)
+
+### Community 22 - "fontSize"
+Cohesion: 0.12
+Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
+
+### Community 23 - "TestShadcnInstaller"
+Cohesion: 0.14
+Nodes (8): Test adding components without shadcn config., Test adding components that are already installed., Test adding components with overwrite flag., Test ShadcnInstaller class., Create temporary project structure., Test getting installed components when none exist., Test getting installed components without config., TestShadcnInstaller
+
+### Community 24 - "_palette_is_dark"
+Cohesion: 0.17
+Nodes (7): _palette_is_dark(), WCAG relative luminance of a #RRGGBB string, or None if unparseable., True when a colors.csv row's Background is a dark surface., _relative_luminance(), The exact reproduction from issue #428., TestEndToEndCoherence, TestLuminance
+
+### Community 25 - "User.php"
+Cohesion: 0.16
+Nodes (6): User, DatabaseSeeder, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Seeder, Illuminate\Foundation\Auth\User, Illuminate\Notifications\Notifiable
+
+### Community 26 - "validate-asset.cjs"
 Cohesion: 0.25
 Nodes (13): checkManifest(), formatBytes(), formatOutput(), fs, main(), parseFilename(), path, RULES (+5 more)
 
-### Community 26 - "extract-colors.cjs"
+### Community 27 - "extract-colors.cjs"
 Cohesion: 0.24
 Nodes (11): calculateCompliance(), colorDistance(), displayPalette(), extractHexColors(), findNearestBrandColor(), fs, generateImageMagickCommand(), hexToRgb() (+3 more)
 
-### Community 27 - "design-tokens-starter.json"
+### Community 28 - "design-tokens-starter.json"
 Cohesion: 0.15
 Nodes (12): component, $type, $value, dark, semantic, $schema, $type, $value (+4 more)
 
-### Community 28 - ".add_components"
+### Community 29 - ".add_components"
 Cohesion: 0.22
 Nodes (7): main(), Add all available shadcn/ui components.          Args:             overwrite:, List installed components.          Returns:             Tuple of (success, m, Check if shadcn is initialized in project.          Returns:             True, Get list of already installed components.          Returns:             List, Read shadcn version from project package.json; fall back to a pinned default., Add shadcn/ui components.          Args:             components: List of comp
 
-### Community 29 - "card"
+### Community 30 - "card"
 Cohesion: 0.20
 Nodes (12): $type, $value, bg, bg, padding, shadow, card, bg (+4 more)
 
-### Community 30 - "ShadcnInstaller"
+### Community 31 - "ShadcnInstaller"
 Cohesion: 0.17
-Nodes (7): Handle shadcn/ui component installation., ShadcnInstaller, Test adding components without shadcn config., Test adding components with overwrite flag., Test successful addition of all components., Test initialization with custom project root., Test checking for non-existent shadcn config.
-
-### Community 31 - "._generate_javascript"
-Cohesion: 0.29
-Nodes (4): Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string.
+Nodes (7): Handle shadcn/ui component installation., ShadcnInstaller, Test adding all components without config., Test successful addition of all components., Test initialization with default project root., Test initialization with custom project root., Test checking for non-existent shadcn config.
 
 ### Community 32 - "inject-brand-context.cjs"
 Cohesion: 0.31
@@ -290,9 +291,9 @@ Nodes (10): extractColorsFromTable(), extractCoreAttributes(), extractHexColors(
 Cohesion: 0.20
 Nodes (9): args, extractTokens(), fs, minimal, MINIMAL_TOKENS, path, projectRoot, tokensPath (+1 more)
 
-### Community 34 - "primitive"
-Cohesion: 0.18
-Nodes (11): fast, normal, slow, $type, $value, $type, $value, primitive (+3 more)
+### Community 34 - "duration"
+Cohesion: 0.20
+Nodes (10): fast, normal, slow, $type, $value, $type, $value, duration (+2 more)
 
 ### Community 35 - "test_tailwind_config_gen.py"
 Cohesion: 0.20
@@ -347,100 +348,100 @@ Cohesion: 0.29
 Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
 
 ### Community 48 - "radius"
-Cohesion: 0.29
-Nodes (8): $type, $value, $type, $value, radius, default, full, default
+Cohesion: 0.24
+Nodes (10): $type, $value, $type, $value, primitive, radius, shadow, full (+2 more)
 
-### Community 49 - "generate_design_system"
+### Community 49 - "._generate_javascript"
+Cohesion: 0.29
+Nodes (4): Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string.
+
+### Community 50 - "generate_design_system"
 Cohesion: 0.29
 Nodes (5): format_markdown(), generate_design_system(), Format design system as markdown., Main entry point for design system generation.      Args:         query: Sear, TestPersistence
 
-### Community 50 - "package.json"
+### Community 51 - "package.json"
 Cohesion: 0.25
 Nodes (7): name, private, $schema, scripts, build, dev, type
 
-### Community 51 - "Edit.jsx"
+### Community 52 - "Edit.jsx"
 Cohesion: 0.36
 Nodes (3): DeleteUserForm(), UpdatePasswordForm(), UpdateProfileInformation()
 
-### Community 52 - "_filter_anti_patterns_for_mode"
+### Community 53 - "_filter_anti_patterns_for_mode"
 Cohesion: 0.43
 Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
 
-### Community 53 - "_select_palette_for_mode"
+### Community 54 - "_select_palette_for_mode"
 Cohesion: 0.43
 Nodes (3): Pick the highest-ranked palette matching the resolved mode.      Only the dark, _select_palette_for_mode(), TestPaletteSelection
 
-### Community 54 - "AppServiceProvider"
+### Community 55 - "AppServiceProvider"
 Cohesion: 0.33
 Nodes (4): AppServiceProvider, Illuminate\Support\ServiceProvider, vite, vite
 
-### Community 55 - "config"
+### Community 56 - "config"
 Cohesion: 0.29
 Nodes (7): pestphp/pest-plugin, php-http/discovery, config, allow-plugins, optimize-autoloader, preferred-install, sort-packages
 
-### Community 56 - "require"
+### Community 57 - "require"
 Cohesion: 0.29
 Nodes (7): require, inertiajs/inertia-laravel, laravel/framework, laravel/sanctum, laravel/tinker, php, tightenco/ziggy
 
-### Community 57 - "shadow"
-Cohesion: 0.47
-Nodes (6): sm, shadow, sm, sm, $type, $value
+### Community 58 - "sm"
+Cohesion: 0.60
+Nodes (5): sm, sm, sm, $type, $value
 
-### Community 58 - "Welcome-CjACvcmL.js"
+### Community 59 - "Welcome-CjACvcmL.js"
 Cohesion: 0.80
 Nodes (5): cn(), GamingButton(), Header(), HomePage(), VoucherCard()
 
-### Community 59 - "UserFactory"
+### Community 60 - "UserFactory"
 Cohesion: 0.47
 Nodes (3): UserFactory, Illuminate\Database\Eloquent\Factories\Factory, static
 
-### Community 61 - "$type"
+### Community 62 - "$type"
 Cohesion: 0.60
 Nodes (5): $type, $value, border, border, border
 
-### Community 62 - "radius"
+### Community 63 - "radius"
 Cohesion: 0.60
 Nodes (5): radius, radius, radius, $type, $value
 
-### Community 63 - "lg"
+### Community 64 - "lg"
 Cohesion: 0.60
 Nodes (5): lg, $type, $value, lg, lg
 
-### Community 64 - "psr-4"
+### Community 65 - "psr-4"
 Cohesion: 0.40
 Nodes (5): autoload, psr-4, App\\, Database\\Factories\\, Database\\Seeders\\
 
-### Community 65 - "padding-y"
+### Community 66 - "padding-y"
 Cohesion: 0.67
 Nodes (4): padding-y, padding-y, $type, $value
 
-### Community 66 - "xl"
+### Community 67 - "xl"
 Cohesion: 0.67
 Nodes (4): xl, xl, $type, $value
 
-### Community 67 - "md"
+### Community 68 - "default"
 Cohesion: 0.67
-Nodes (4): $type, $value, md, md
+Nodes (4): $type, $value, default, default
 
-### Community 68 - "none"
+### Community 69 - "none"
 Cohesion: 0.67
 Nodes (4): $type, $value, none, none
 
-### Community 69 - "validate_data.py"
+### Community 70 - "validate_data.py"
 Cohesion: 0.83
 Nodes (3): _check_file(), main(), _read_rows()
 
-### Community 70 - "post-autoload-dump"
+### Community 71 - "post-autoload-dump"
 Cohesion: 0.50
 Nodes (4): post-autoload-dump, @php artisan clear-compiled, @php artisan config:clear, @php artisan package:discover --ansi
 
-### Community 71 - "post-create-project-cmd"
+### Community 72 - "post-create-project-cmd"
 Cohesion: 0.50
 Nodes (4): post-create-project-cmd, @php artisan key:generate --ansi, @php artisan migrate --graceful --ansi, @php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\
-
-### Community 74 - "destructive"
-Cohesion: 0.67
-Nodes (3): destructive, $type, $value
 
 ### Community 75 - "destructive-foreground"
 Cohesion: 0.67
@@ -450,23 +451,27 @@ Nodes (3): destructive-foreground, $type, $value
 Cohesion: 0.67
 Nodes (3): muted, $type, $value
 
-### Community 77 - "primary-foreground"
+### Community 77 - "destructive"
+Cohesion: 0.67
+Nodes (3): destructive, $type, $value
+
+### Community 78 - "primary-foreground"
 Cohesion: 0.67
 Nodes (3): primary-foreground, $type, $value
 
-### Community 78 - "ring"
+### Community 79 - "ring"
 Cohesion: 0.67
 Nodes (3): ring, $type, $value
 
-### Community 79 - "secondary-foreground"
+### Community 80 - "secondary-foreground"
 Cohesion: 0.67
 Nodes (3): secondary-foreground, $type, $value
 
-### Community 86 - "extra"
+### Community 87 - "extra"
 Cohesion: 0.67
 Nodes (3): extra, laravel, dont-discover
 
-### Community 87 - "keywords"
+### Community 88 - "keywords"
 Cohesion: 0.67
 Nodes (3): keywords, framework, laravel
 
@@ -478,7 +483,7 @@ Nodes (3): keywords, framework, laravel
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `primitive` connect `primitive` to `gray`, `spacing`, `radius`, `fontSize`, `shadow`, `design-tokens-starter.json`?**
+- **Why does `primitive` connect `radius` to `gray`, `duration`, `spacing`, `fontSize`, `design-tokens-starter.json`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `BM25` connect `BM25` to `DesignSystemGenerator`, `generate_design_system`, `search`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
