@@ -818,5 +818,10 @@
     "mtime": 1786122420.343554,
     "ast_hash": "e5fb185fab1e43e5969279eb36e828dd",
     "semantic_hash": "e5fb185fab1e43e5969279eb36e828dd"
+  },
+  "resources/js/Pages/SuperAdmin/Orders/Detail.jsx": {
+    "mtime": 1786122444.0888586,
+    "ast_hash": "9306e077a859809614a1a4209dc1e0b6",
+    "semantic_hash": "9306e077a859809614a1a4209dc1e0b6"
   }
 }
