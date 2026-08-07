@@ -823,5 +823,10 @@
     "mtime": 1786122444.0888586,
     "ast_hash": "9306e077a859809614a1a4209dc1e0b6",
     "semantic_hash": "9306e077a859809614a1a4209dc1e0b6"
+  },
+  "resources/js/Pages/SuperAdmin/Shipping/CourierSettings.jsx": {
+    "mtime": 1786122472.5138457,
+    "ast_hash": "011f1de58f45d8b223f868620433e2c0",
+    "semantic_hash": "011f1de58f45d8b223f868620433e2c0"
   }
 }
