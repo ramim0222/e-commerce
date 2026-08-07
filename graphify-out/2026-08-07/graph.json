@@ -3960,7 +3960,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "primary",
-      "community_name": "color",
+      "community_name": "primary",
       "id": "agents_skills_design_system_templates_design_tokens_starter_color_primary"
     },
     {
@@ -3971,7 +3971,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "$value",
-      "community_name": "color",
+      "community_name": "primary",
       "id": "agents_skills_design_system_templates_design_tokens_starter_primary_value"
     },
     {
@@ -3982,7 +3982,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "$type",
-      "community_name": "color",
+      "community_name": "primary",
       "id": "agents_skills_design_system_templates_design_tokens_starter_primary_type"
     },
     {
@@ -4191,7 +4191,7 @@
       "_origin": "ast",
       "community": 74,
       "norm_label": "destructive",
-      "community_name": "destructive",
+      "community_name": "color",
       "id": "agents_skills_design_system_templates_design_tokens_starter_color_destructive"
     },
     {
@@ -4202,7 +4202,7 @@
       "_origin": "ast",
       "community": 74,
       "norm_label": "$value",
-      "community_name": "destructive",
+      "community_name": "color",
       "id": "agents_skills_design_system_templates_design_tokens_starter_destructive_value"
     },
     {
@@ -4213,7 +4213,7 @@
       "_origin": "ast",
       "community": 74,
       "norm_label": "$type",
-      "community_name": "destructive",
+      "community_name": "color",
       "id": "agents_skills_design_system_templates_design_tokens_starter_destructive_type"
     },
     {
@@ -4521,7 +4521,7 @@
       "_origin": "ast",
       "community": 47,
       "norm_label": "padding-x",
-      "community_name": "input",
+      "community_name": "padding-x",
       "id": "agents_skills_design_system_templates_design_tokens_starter_button_padding_x"
     },
     {
@@ -4532,7 +4532,7 @@
       "_origin": "ast",
       "community": 47,
       "norm_label": "$value",
-      "community_name": "input",
+      "community_name": "padding-x",
       "id": "agents_skills_design_system_templates_design_tokens_starter_padding_x_value"
     },
     {
@@ -4543,7 +4543,7 @@
       "_origin": "ast",
       "community": 47,
       "norm_label": "$type",
-      "community_name": "input",
+      "community_name": "padding-x",
       "id": "agents_skills_design_system_templates_design_tokens_starter_padding_x_type"
     },
     {
@@ -4554,7 +4554,7 @@
       "_origin": "ast",
       "community": 65,
       "norm_label": "padding-y",
-      "community_name": "padding-y",
+      "community_name": "input",
       "id": "agents_skills_design_system_templates_design_tokens_starter_button_padding_y"
     },
     {
@@ -4565,7 +4565,7 @@
       "_origin": "ast",
       "community": 65,
       "norm_label": "$value",
-      "community_name": "padding-y",
+      "community_name": "input",
       "id": "agents_skills_design_system_templates_design_tokens_starter_padding_y_value"
     },
     {
@@ -4576,7 +4576,7 @@
       "_origin": "ast",
       "community": 65,
       "norm_label": "$type",
-      "community_name": "padding-y",
+      "community_name": "input",
       "id": "agents_skills_design_system_templates_design_tokens_starter_padding_y_type"
     },
     {
@@ -4719,7 +4719,7 @@
       "_origin": "ast",
       "community": 47,
       "norm_label": "padding-x",
-      "community_name": "input",
+      "community_name": "padding-x",
       "id": "agents_skills_design_system_templates_design_tokens_starter_input_padding_x"
     },
     {
@@ -4730,7 +4730,7 @@
       "_origin": "ast",
       "community": 65,
       "norm_label": "padding-y",
-      "community_name": "padding-y",
+      "community_name": "input",
       "id": "agents_skills_design_system_templates_design_tokens_starter_input_padding_y"
     },
     {
@@ -6367,7 +6367,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L191",
       "_origin": "ast",
-      "community": 24,
+      "community": 31,
       "norm_label": ".generate_config_string()",
       "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string"
@@ -6422,7 +6422,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L267",
       "_origin": "ast",
-      "community": 24,
+      "community": 31,
       "norm_label": ".write_config()",
       "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
@@ -6587,7 +6587,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L192",
       "_origin": "ast",
-      "community": 24,
+      "community": 31,
       "norm_label": "generate configuration file content.          returns:             configurat",
       "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_192"
@@ -6642,7 +6642,7 @@
       "source_file": ".agents/skills/ui-styling/scripts/tailwind_config_gen.py",
       "source_location": "L268",
       "_origin": "ast",
-      "community": 24,
+      "community": 31,
       "norm_label": "write configuration to file.          returns:             tuple of (success,",
       "community_name": "main",
       "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_rationale_268"
@@ -10164,7 +10164,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "user.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "app_models_user"
     },
     {
@@ -10175,7 +10175,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "user",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "app_models_user_user"
     },
     {
@@ -10186,7 +10186,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".casts()",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "app_models_user_user_casts"
     },
     {
@@ -12342,7 +12342,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "databaseseeder.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "database_seeders_databaseseeder"
     },
     {
@@ -12353,7 +12353,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "databaseseeder",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "database_seeders_databaseseeder_databaseseeder"
     },
     {
@@ -12364,7 +12364,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".run()",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "database_seeders_databaseseeder_databaseseeder_run"
     },
     {
@@ -13827,7 +13827,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "authenticationtest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_auth_authenticationtest"
     },
     {
@@ -13838,7 +13838,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "emailverificationtest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_auth_emailverificationtest"
     },
     {
@@ -13849,7 +13849,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "passwordconfirmationtest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_auth_passwordconfirmationtest"
     },
     {
@@ -13860,7 +13860,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "passwordresettest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_auth_passwordresettest"
     },
     {
@@ -13871,7 +13871,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "passwordupdatetest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_auth_passwordupdatetest"
     },
     {
@@ -13904,7 +13904,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "profiletest.php",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "tests_feature_profiletest"
     },
     {
@@ -14047,7 +14047,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "illuminate\\database\\eloquent\\factories\\hasfactory",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "illuminate_database_eloquent_factories_hasfactory"
     },
     {
@@ -14058,7 +14058,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "illuminate\\notifications\\notifiable",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "illuminate_notifications_notifiable"
     },
     {
@@ -14069,7 +14069,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "illuminate\\foundation\\auth\\user",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "illuminate_foundation_auth_user"
     },
     {
@@ -14113,7 +14113,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "illuminate\\database\\seeder",
-      "community_name": "Illuminate\\Http\\Request",
+      "community_name": "User.php",
       "id": "illuminate_database_seeder"
     },
     {
@@ -14463,10 +14463,9 @@
       "source_file": "resources/js/Pages/Front/Cart.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 140,
-      "norm_label": "cart.jsx",
       "id": "resources_js_pages_front_cart",
-      "community_name": "Cart.jsx"
+      "community": 140,
+      "norm_label": "cart.jsx"
     },
     {
       "label": "Cart()",
@@ -14474,10 +14473,9 @@
       "source_file": "resources/js/Pages/Front/Cart.jsx",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 140,
-      "norm_label": "cart()",
       "id": "resources_js_pages_front_cart_cart",
-      "community_name": "Cart.jsx"
+      "community": 140,
+      "norm_label": "cart()"
     }
   ],
   "links": [
@@ -35789,9 +35787,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "resources_js_pages_front_cart",
-      "target": "resources_js_pages_front_cart_cart"
+      "target": "resources_js_pages_front_cart_cart",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
