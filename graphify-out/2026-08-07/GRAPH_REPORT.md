@@ -4,12 +4,12 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 1336 nodes · 1885 edges · 183 communities (152 shown, 31 thin omitted)
+- 1338 nodes · 1886 edges · 184 communities (153 shown, 31 thin omitted)
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 191 edges (avg confidence: 0.73)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8dcb1b16`
+- Built from commit: `0589eb6b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,13 +37,13 @@
 - dependencies
 - icon/generate.py
 - fontSize
-- .add_components
 - TestShadcnInstaller
 - _palette_is_dark
 - User.php
 - validate-asset.cjs
 - extract-colors.cjs
 - design-tokens-starter.json
+- .add_components
 - card
 - ShadcnInstaller
 - inject-brand-context.cjs
@@ -63,7 +63,7 @@
 - compilerOptions
 - input
 - radius
-- ._generate_javascript
+- .generate_config_string
 - generate_design_system
 - package.json
 - Edit.jsx
@@ -80,31 +80,32 @@
 - radius
 - lg
 - psr-4
-- padding-x
+- padding-y
 - xl
-- md
+- default
 - none
 - validate_data.py
 - post-autoload-dump
 - post-create-project-cmd
 - test_sync_brand_to_tokens.py
 - main
-- primary
 - destructive-foreground
 - muted
+- destructive
 - primary-foreground
 - ring
 - secondary-foreground
-- .__init__
 - shadcn_add.py
-- .test_get_installed_components_empty
+- .__init__
+- .test_add_all_components_dry_run
+- .test_get_installed_components_no_config
 - .test_full_configuration_javascript
 - scripts/search.py
-- .test_add_all_components_dry_run
+- extra
 - keywords
 - TestCase
 - button.jsx
-- autoload-dev
+- .test_add_components_already_installed
 - .test_add_components_subprocess_error
 - .test_add_components_npx_not_found
 - .test_init_dry_run
@@ -118,13 +119,12 @@
 - .test_init_javascript
 - .test_write_config_invalid_path
 - .test_add_colors
-- axios
+- laravel-vite-plugin
 - bootstrap/app.php
 - @headlessui/react
 - @tailwindcss/forms
 - tw-animate-css
 - @vitejs/plugin-react
-- .test_add_components_success
 
 ## God Nodes (most connected - your core abstractions)
 1. `TailwindConfigGenerator` - 57 edges
@@ -153,7 +153,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (183 total, 31 thin omitted)
+## Communities (184 total, 31 thin omitted)
 
 ### Community 0 - "Illuminate\Http\Request"
 Cohesion: 0.08
@@ -221,15 +221,15 @@ Nodes (11): Generate Tailwind CSS configuration files., Add full color palette (
 
 ### Community 16 - "color"
 Cohesion: 0.11
-Nodes (19): $type, $value, background, destructive, foreground, muted-foreground, primary-hover, secondary (+11 more)
+Nodes (19): $type, $value, background, foreground, muted-foreground, primary, primary-hover, secondary (+11 more)
 
 ### Community 17 - "main"
-Cohesion: 0.11
-Nodes (10): main(), Add custom font families.          Args:             fonts: Dict of font_type, Add custom spacing values.          Args:             spacing: Dict of name:, Add custom breakpoints.          Args:             breakpoints: Dict of name:, Add plugin requirements.          Args:             plugins: List of plugin n, Get plugin recommendations based on configuration.          Returns:, Generate configuration file content.          Returns:             Configurat, Write configuration to file.          Returns:             Tuple of (success, (+2 more)
+Cohesion: 0.13
+Nodes (8): main(), Add custom font families.          Args:             fonts: Dict of font_type, Add custom spacing values.          Args:             spacing: Dict of name:, Add custom breakpoints.          Args:             breakpoints: Dict of name:, Add plugin requirements.          Args:             plugins: List of plugin n, Get plugin recommendations based on configuration.          Returns:, Validate configuration.          Returns:             Tuple of (valid, messag, Add custom colors to theme.          Args:             colors: Dict of color_
 
 ### Community 18 - "devDependencies"
 Cohesion: 0.11
-Nodes (19): autoprefixer, concurrently, @inertiajs/react, laravel-vite-plugin, devDependencies, autoprefixer, concurrently, @inertiajs/react (+11 more)
+Nodes (19): autoprefixer, axios, concurrently, @inertiajs/react, devDependencies, autoprefixer, axios, concurrently (+11 more)
 
 ### Community 19 - "fetch-background.py"
 Cohesion: 0.17
@@ -247,33 +247,33 @@ Nodes (15): apply_color(), apply_viewbox_size(), extract_svgs(), generate_batch(
 Cohesion: 0.12
 Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
 
-### Community 23 - ".add_components"
-Cohesion: 0.22
-Nodes (7): main(), Add all available shadcn/ui components.          Args:             overwrite:, List installed components.          Returns:             Tuple of (success, m, Check if shadcn is initialized in project.          Returns:             True, Get list of already installed components.          Returns:             List, Read shadcn version from project package.json; fall back to a pinned default., Add shadcn/ui components.          Args:             components: List of comp
-
-### Community 24 - "TestShadcnInstaller"
+### Community 23 - "TestShadcnInstaller"
 Cohesion: 0.14
-Nodes (8): Test adding components without shadcn config., Test adding components that are already installed., Test adding components with overwrite flag., Test ShadcnInstaller class., Create temporary project structure., Test listing installed components when none exist., Test getting installed components without config., TestShadcnInstaller
+Nodes (8): Test successful component addition., Test ShadcnInstaller class., Test adding all components without config., Create temporary project structure., Test listing installed components when none exist., Test initialization with default project root., Test getting installed components when none exist., TestShadcnInstaller
 
-### Community 25 - "_palette_is_dark"
+### Community 24 - "_palette_is_dark"
 Cohesion: 0.17
 Nodes (7): _palette_is_dark(), WCAG relative luminance of a #RRGGBB string, or None if unparseable., True when a colors.csv row's Background is a dark surface., _relative_luminance(), The exact reproduction from issue #428., TestEndToEndCoherence, TestLuminance
 
-### Community 26 - "User.php"
+### Community 25 - "User.php"
 Cohesion: 0.16
 Nodes (6): User, DatabaseSeeder, Illuminate\Database\Eloquent\Factories\HasFactory, Illuminate\Database\Seeder, Illuminate\Foundation\Auth\User, Illuminate\Notifications\Notifiable
 
-### Community 27 - "validate-asset.cjs"
+### Community 26 - "validate-asset.cjs"
 Cohesion: 0.25
 Nodes (13): checkManifest(), formatBytes(), formatOutput(), fs, main(), parseFilename(), path, RULES (+5 more)
 
-### Community 28 - "extract-colors.cjs"
+### Community 27 - "extract-colors.cjs"
 Cohesion: 0.24
 Nodes (11): calculateCompliance(), colorDistance(), displayPalette(), extractHexColors(), findNearestBrandColor(), fs, generateImageMagickCommand(), hexToRgb() (+3 more)
 
-### Community 29 - "design-tokens-starter.json"
+### Community 28 - "design-tokens-starter.json"
 Cohesion: 0.15
 Nodes (12): component, $type, $value, dark, semantic, $schema, $type, $value (+4 more)
+
+### Community 29 - ".add_components"
+Cohesion: 0.22
+Nodes (7): main(), Add all available shadcn/ui components.          Args:             overwrite:, List installed components.          Returns:             Tuple of (success, m, Check if shadcn is initialized in project.          Returns:             True, Get list of already installed components.          Returns:             List, Read shadcn version from project package.json; fall back to a pinned default., Add shadcn/ui components.          Args:             components: List of comp
 
 ### Community 30 - "card"
 Cohesion: 0.20
@@ -281,7 +281,7 @@ Nodes (12): $type, $value, bg, bg, padding, shadow, card, bg (+4 more)
 
 ### Community 31 - "ShadcnInstaller"
 Cohesion: 0.17
-Nodes (7): Handle shadcn/ui component installation., ShadcnInstaller, Test adding all components without config., Test successful addition of all components., Test initialization with default project root., Test initialization with custom project root., Test checking for non-existent shadcn config.
+Nodes (7): Handle shadcn/ui component installation., ShadcnInstaller, Test adding components without shadcn config., Test adding components with overwrite flag., Test successful addition of all components., Test initialization with custom project root., Test checking for non-existent shadcn config.
 
 ### Community 32 - "inject-brand-context.cjs"
 Cohesion: 0.31
@@ -305,7 +305,7 @@ Nodes (7): _query_wants_dark(), True when a styles.csv row describes itself as d
 
 ### Community 37 - "composer.json"
 Cohesion: 0.18
-Nodes (10): description, extra, laravel, dont-discover, license, minimum-stability, name, prefer-stable (+2 more)
+Nodes (10): autoload-dev, psr-4, description, license, minimum-stability, name, prefer-stable, Tests\\ (+2 more)
 
 ### Community 38 - "require-dev"
 Cohesion: 0.18
@@ -345,15 +345,15 @@ Nodes (8): compilerOptions, baseUrl, paths, exclude, ziggy-js, node_modules, pub
 
 ### Community 47 - "input"
 Cohesion: 0.29
-Nodes (8): padding-y, input, $type, $value, focus-ring, padding-y, $type, $value
+Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
 
 ### Community 48 - "radius"
 Cohesion: 0.29
-Nodes (8): $type, $value, $type, $value, radius, default, full, default
+Nodes (8): $type, $value, $type, $value, radius, full, md, md
 
-### Community 49 - "._generate_javascript"
-Cohesion: 0.29
-Nodes (4): Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string.
+### Community 49 - ".generate_config_string"
+Cohesion: 0.20
+Nodes (6): Generate configuration file content.          Returns:             Configurat, Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a, Add indentation to JSON string., Write configuration to file.          Returns:             Tuple of (success,
 
 ### Community 50 - "generate_design_system"
 Cohesion: 0.29
@@ -415,17 +415,17 @@ Nodes (5): lg, $type, $value, lg, lg
 Cohesion: 0.40
 Nodes (5): autoload, psr-4, App\\, Database\\Factories\\, Database\\Seeders\\
 
-### Community 66 - "padding-x"
+### Community 66 - "padding-y"
 Cohesion: 0.67
-Nodes (4): padding-x, padding-x, $type, $value
+Nodes (4): padding-y, padding-y, $type, $value
 
 ### Community 67 - "xl"
 Cohesion: 0.67
 Nodes (4): xl, xl, $type, $value
 
-### Community 68 - "md"
+### Community 68 - "default"
 Cohesion: 0.67
-Nodes (4): $type, $value, md, md
+Nodes (4): $type, $value, default, default
 
 ### Community 69 - "none"
 Cohesion: 0.67
@@ -443,17 +443,17 @@ Nodes (4): post-autoload-dump, @php artisan clear-compiled, @php artisan config:
 Cohesion: 0.50
 Nodes (4): post-create-project-cmd, @php artisan key:generate --ansi, @php artisan migrate --graceful --ansi, @php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\
 
-### Community 75 - "primary"
-Cohesion: 0.67
-Nodes (3): primary, $type, $value
-
-### Community 76 - "destructive-foreground"
+### Community 75 - "destructive-foreground"
 Cohesion: 0.67
 Nodes (3): destructive-foreground, $type, $value
 
-### Community 77 - "muted"
+### Community 76 - "muted"
 Cohesion: 0.67
 Nodes (3): muted, $type, $value
+
+### Community 77 - "destructive"
+Cohesion: 0.67
+Nodes (3): destructive, $type, $value
 
 ### Community 78 - "primary-foreground"
 Cohesion: 0.67
@@ -467,13 +467,13 @@ Nodes (3): ring, $type, $value
 Cohesion: 0.67
 Nodes (3): secondary-foreground, $type, $value
 
-### Community 87 - "keywords"
+### Community 87 - "extra"
+Cohesion: 0.67
+Nodes (3): extra, laravel, dont-discover
+
+### Community 88 - "keywords"
 Cohesion: 0.67
 Nodes (3): keywords, framework, laravel
-
-### Community 94 - "autoload-dev"
-Cohesion: 0.67
-Nodes (3): autoload-dev, psr-4, Tests\\
 
 ## Knowledge Gaps
 - **219 isolated node(s):** `fs`, `path`, `fs`, `path`, `fs` (+214 more)
